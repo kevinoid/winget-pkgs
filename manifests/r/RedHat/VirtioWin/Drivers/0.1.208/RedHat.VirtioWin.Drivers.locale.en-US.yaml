@@ -1,0 +1,38 @@
+# Created using wingetcreate 0.4.3.1
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.0.0.schema.json
+
+PackageIdentifier: RedHat.VirtioWin.Drivers
+PackageVersion: 0.1.208
+PackageLocale: en-US
+Publisher: Red Hat, Inc.
+PublisherUrl: https://github.com/virtio-win/virtio-win-guest-tools-installer
+PublisherSupportUrl: https://github.com/virtio-win/virtio-win-guest-tools-installer/issues
+PackageName: VirtIO Windows Guest Drivers
+PackageUrl: https://github.com/virtio-win/kvm-guest-drivers-windows
+License: MS-RL AND GPL-2.0-only AND Apache-2.0
+LicenseUrl: https://github.com/virtio-win/virtio-win-guest-tools-installer/blob/master/virtio-win-drivers-installer/License.rtf
+ShortDescription: Virtual I/O device drivers for paravirtualized Windows virtual machine guests.
+Description: >-
+  Virtual I/O Device (VIRTIO) is a specification for devices in virtual environments.
+  The VirtIO Windows Drivers provide device drivers for Windows guest VMs to use such devices.
+  The ADDLOCAL installer property accepts a comma-separated list of drivers to install:
+  FE_balloon_driver,
+  FE_network_driver,
+  FE_pvpanic_driver,
+  FE_qemufwcfg_driver,
+  FE_qemupciserial_driver,
+  FE_viofs_driver,
+  FE_viogpudo_driver,
+  FE_vioinput_driver,
+  FE_viorng_driver,
+  FE_vioscsi_driver,
+  FE_vioserial_driver,
+  FE_viostor_driver,
+  or ALL (the default) to install all drivers.
+Tags:
+- driver
+- foss
+- virtualization
+- vm
+ManifestType: defaultLocale
+ManifestVersion: 1.0.0

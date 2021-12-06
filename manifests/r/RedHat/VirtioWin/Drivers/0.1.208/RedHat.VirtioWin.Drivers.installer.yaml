@@ -1,0 +1,20 @@
+# Created using wingetcreate 0.4.3.1
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.0.0.schema.json
+
+PackageIdentifier: RedHat.VirtioWin.Drivers
+PackageVersion: 0.1.208
+Installers:
+- InstallerLocale: en-US
+  Architecture: x64
+  InstallerType: msi
+  InstallerUrl: https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.208-1/virtio-win-gt-x64.msi
+  InstallerSha256: FDCF77898AD8765358D621338A91544C93FDBC3A113B2B35BC09B704860171CB
+  ProductCode: '{88055C86-7406-4BB6-A3B3-A2E945568FAD}'
+- InstallerLocale: en-US
+  Architecture: x86
+  InstallerType: msi
+  InstallerUrl: https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.208-1/virtio-win-gt-x86.msi
+  InstallerSha256: 0116900B2CF49D786793768F50888B836415E78B180D4868A0EE38C69D89AC01
+  ProductCode: '{9DA6065D-4120-4C76-ABBB-1E90EDB81681}'
+ManifestType: installer
+ManifestVersion: 1.0.0
