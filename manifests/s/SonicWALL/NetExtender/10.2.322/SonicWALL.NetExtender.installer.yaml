@@ -10,6 +10,7 @@ InstallerSwitches:
   SilentWithProgress: /passive /norestart
 InstallerSuccessCodes:
 - 3010
+UpgradeBehavior: uninstallPrevious
 Installers:
 - Architecture: x86
   InstallerUrl: https://software.sonicwall.com/NetExtender/NetExtender-x86-10.2.322.MSI
