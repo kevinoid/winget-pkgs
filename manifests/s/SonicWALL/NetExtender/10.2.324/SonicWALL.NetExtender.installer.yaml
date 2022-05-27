@@ -9,6 +9,7 @@ InstallerSwitches:
   SilentWithProgress: /passive /norestart
 InstallerSuccessCodes:
 - 3010
+UpgradeBehavior: uninstallPrevious
 Installers:
 - Architecture: x86
   InstallerType: wix
